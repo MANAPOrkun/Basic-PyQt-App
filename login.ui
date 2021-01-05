@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+image: url(:/background/Resources/1920x1080-px-Moon-satellite-simple-space-1473897.jpg);
+
+}</string>
+  </property>
+  <widget class="QFrame" name="input_fileds_frame">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>541</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QFrame{
+	background-color: qlineargradient(spread:pad, x1:0.489, y1:0, x2:0.534, y2:1, stop:0 rgba(25, 25, 25, 255), stop:1 rgba(39, 39, 39, 255));
+ image:null;
+border-radius:30px
+
+}
+QLineEdit {
+	border: 2px solid rgb(0, 93, 159);
+	border-radius: 10px;
+	padding: 15px;
+	background-color: rgb(0, 69, 116);
+	color: rgb(255, 255, 255);
+ image:null;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(0, 66, 124);
+ image:null;
+}
+QLineEdit:focus {
+	border: 2px solid rgb(206, 206, 206);
+	color: rgb(200, 200, 200);
+ image:null;
+}
+QPushButton {
+	border: 2px solid rgb(45, 45, 45);
+ image:null;
+	border-radius: 10px;
+	padding: 15px;
+	background-color:rgb(14, 13, 24);
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover {
+	border: 2px solid rgb(0, 66, 124);
+ image:null;
+}
+QLabel{
+	border:3px solid  rgb(45, 45, 45);
+ image:null;
+	border-radius: 10px;
+	
+	background-color: rgb(6, 63, 104);
+}
+QCheckBox{
+	color: rgb(255, 255, 255);
+	padding: 10px;
+ image:null;
+}
+QCheckBox::indicator {
+    border: 3px solid rgb(0, 93, 159);
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+    background:rgb(0, 0, 0);
+}
+QCheckBox::indicator:hover {
+    border: 3px solid rgb(255, 255, 255);
+}
+QCheckBox::indicator:checked {
+    background: 3px solid rgb(34, 34, 34);
+	background-image: url(:/icons/icons/cil-check.png);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>270</y>
+      <width>200</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:3px solid  rgb(43, 31, 91);
+border-radius: 10px;
+background-color: rgb(85, 170, 255);</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>510</y>
+      <width>121</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="profile_icon_frame">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>170</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/background/Resources/user.png);
+border-radius: 10px;
+border: 3px solid rgb(35, 35, 35);
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>330</y>
+      <width>200</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:3px solid  rgb(43, 31, 91);
+border-radius: 10px;
+background-color: rgb(85, 170, 255);</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>470</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+background-color:rgb(31, 31, 31);
+</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

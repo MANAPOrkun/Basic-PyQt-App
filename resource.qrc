@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="background">
+    <file>Resources/userpic.png</file>
+    <file>Resources/telescope1.png</file>
+    <file>Resources/telescope2.png</file>
+    <file>Resources/toy1.png</file>
+    <file>Resources/toy2.png</file>
+    <file>Resources/cart.png</file>
+    <file>Resources/close.png</file>
+    <file>Resources/maximize.png</file>
+    <file>Resources/minimize.png</file>
+    <file>Resources/email.png</file>
+    <file>Resources/home.png</file>
+    <file>Resources/menu.png</file>
+    <file>Resources/password.png</file>
+    <file>Resources/phone.png</file>
+    <file>Resources/profile.png</file>
+    <file>Resources/user.png</file>
+    <file>Resources/astranaut.png</file>
+    <file>Resources/astronaut.png</file>
+    <file>Resources/1920x1080-px-Moon-satellite-simple-space-1473897.jpg</file>
+    <file>Resources/Desert-Moon.png</file>
+  </qresource>
+</RCC>

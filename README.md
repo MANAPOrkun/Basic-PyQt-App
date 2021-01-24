@@ -4,9 +4,11 @@ Splash Screen
 ![](/Screenshots/splash.png)
 
 Register Screen
+
 ![](/Screenshots/register.png)
 
 Login Screen
+
 ![](/Screenshots/login.png)
 
 Home Screen
